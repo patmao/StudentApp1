@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './StudentForm.css'; // Import CSS file
+import './StudentForm.css'; 
 
 const StudentForm = ({ onSubmit }) => {
   const [name, setName] = useState('');
@@ -24,7 +24,7 @@ const StudentForm = ({ onSubmit }) => {
   return (
     <form onSubmit={handleSubmit} className="student-form">
       <div className="form-group">
-        <label htmlFor="name">Name:</label>
+        <label htmlFor="name">Name Changed:</label>
         <input
           type="text"
           id="name"
